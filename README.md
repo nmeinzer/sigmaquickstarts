@@ -38,6 +38,7 @@ You can submit your own Quickstarts to be published on Sigma's website by submit
   3. Navigate to the site directory `cd sfquickstarts/site`
   4. Install node dependencies `npm install`
   5. Run the site `npm run serve`
+  6. Open a browser and go to "localhost:8000" to view the site
 
 Congratulations! You now have the Sigma Quickstarts landing page running.
 
@@ -60,11 +61,13 @@ export PATH=$PATH:$HOME/go/bin
 
 ## Write Your First Quickstart
 
-  1. Terminate the running server with `ctrl C` and and navigate to the `sfguides` source directory `cd sfguides/src`
+  1. Terminate the running server with `ctrl C` and navigate to the repository's source directory. Navigatge to the fodler with the quickstarts: `cd sigmaquickstarts/site/sfguides/src`
      - In this directory, you will see all existing guides and their markdown files.
   2. Generate a new guide from the guide template `npm run template <GUIDE_NAME>` 
       - Don't use spaces in the name of your guide, instead use underscores.
-  3. Navigate to the newly generated guide (`cd sfguides/src/<GUIDE_NAME>`) and edit your guide in a tool like vscode.
+      - Example:  `npm run template My_First_Sigma_Quickstart`
+      - This will create a folder with your quickstart template.
+  3. Navigate to the newly generated guide's folder (`cd sfguides/src/<GUIDE_NAME>`) and edit your guide in a tool like vscode.
   4. Run the website again `npm run serve`
   5. As you edit and save changes, your changes will automatically load in the browser.
 
