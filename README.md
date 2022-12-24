@@ -66,8 +66,8 @@ export PATH=$PATH:$HOME/go/bin
   2. Generate a new guide from the guide template `npm run template <GUIDE_NAME>` 
       - Don't use spaces in the name of your guide, instead use underscores.
       - Example:  `npm run template My_First_Sigma_Quickstart`
-      - This will create a folder with your quickstart template.
-  3. Navigate to the newly generated guide's folder (`cd sfguides/src/<GUIDE_NAME>`) and edit your guide in a tool like vscode.
+      - This will create a folder with your quickstart template and assets contained within.
+  3. Navigate to the newly generated guide's folder (`cd sfguides/src/<GUIDE_NAME>`) and edit your guide in a tool like vscode and locate the markdown file. It will be named: `<GUIDE_NAME>.md`
   4. Run the website again `npm run serve`
   5. As you edit and save changes, your changes will automatically load in the browser.
 
