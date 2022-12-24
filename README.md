@@ -1,6 +1,7 @@
 # Sigma Quickstarts
 
 ## What are Sigma Quickstarts?
+
 Sigma Quickstarts are interactive tutorials and self-serve demos written in markdown syntax. Quickstarts provide a unique step-by-step reading experience and automatically saves tutorial progress for readers. These tutorials are published at [quickstarts.sigma.com](https://quickstarts.sigma.com/)
 
 You can submit your own Quickstarts to be published on Sigma's website by submitting a pull request to this repo. This repository contains all the tools and documentation you’ll need for building, writing, and submitting your own Quickstart!
